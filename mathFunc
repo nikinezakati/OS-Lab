@@ -1,0 +1,20 @@
+addition()
+{
+	echo `expr $1 + $2`
+}
+subtraction()
+{
+	echo `expr $1 - $2`
+}
+multiplication()
+{
+	echo `expr $1 \* $2`
+}
+division()
+{
+	echo `expr $1 / $2`
+}
+module()
+{
+	echo `expr $1 % $2`
+}
